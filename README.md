@@ -1,7 +1,7 @@
 
-# WordFinder3000 - Terminalde Kelime Arama Aracı 🚀
+# WordFinder - Terminalde Kelime Arama Aracı 🚀
 
-WordFinder3000, terminalde hızlı ve kolayca kelime arayıp anlamlarını bulmanı sağlayan renkli, kullanışlı ve sağlam bir Python uygulamasıdır.
+WordFinder, terminalde hızlı ve kolayca kelime arayıp anlamlarını bulmanı sağlayan renkli, kullanışlı ve sağlam bir Python uygulamasıdır.
 
 ---
 
@@ -37,7 +37,7 @@ pip install pandas rich pyarrow
 
 1. Projeyi klonla veya indir:
     ```bash
-    git clone https://github.com/kullanici/wordfinder3000.git
+    git clone https://github.com/hakankygsz/wordfinder.git
     cd wordfinder3000
     ```
 
@@ -74,7 +74,7 @@ df.to_parquet('dataset.parquet')
 
 ## İletişim
 
-Her türlü soru, öneri ve katkı için [email@example.com](mailto:email@example.com) adresinden bana ulaşabilirsin.
+Her türlü soru, öneri ve katkı için [hakankaygusuzdev@gmail.com](mailto:hakankaygusuzdev@gmail.com) adresinden bana ulaşabilirsin.
 
 ---
 
@@ -84,4 +84,4 @@ MIT License © 2025 Hakan
 
 ---
 
-🚀 **WordFinder3000** ile kelime dünyasında kaybolma, keşfet!
+🚀 **wordfinder** ile kelime dünyasında kaybolma, keşfet!

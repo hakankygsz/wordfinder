@@ -1,31 +1,31 @@
 
-# WordFinder - Terminalde Kelime Arama Aracı 🚀
+# WordFinder - Terminal Word Search Tool 🚀
 
-WordFinder, terminalde hızlı ve kolayca kelime arayıp anlamlarını bulmanı sağlayan renkli, kullanışlı ve sağlam bir Python uygulamasıdır.
-
----
-
-## Özellikler
-
-- **Hızlı ve duyarlı** kelime arama
-- Renkli ve okunabilir terminal arayüzü (`rich` kütüphanesi kullanıldı)
-- `dataset.parquet` formatında veritabanı ile çalışır
-- Boş girişlerde ve hatalı dosya durumlarında kullanıcı dostu uyarılar
-- `Ctrl+C` veya `q/exit` komutları ile kolayca çıkış yapabilme
-- Genişletilebilir, temiz ve sade kod yapısı
+WordFinder is a colorful, handy, and robust Python application that lets you quickly and easily search for words and find their meanings right in your terminal.
 
 ---
 
-## Gereksinimler
+## Features
+
+- **Fast and responsive** word searching
+- Colorful and readable terminal interface (uses the `rich` library)
+- Works with a database in `dataset.parquet` format
+- User-friendly warnings on empty inputs and faulty file issues
+- Easy exit with `Ctrl+C` or commands like `q/exit`
+- Clean, simple, and extensible codebase
+
+---
+
+## Requirements
 
 - Python 3.8+
 - Pandas
 - Rich
-- PyArrow (Parquet dosyalarını okumak için)
+- PyArrow (for reading Parquet files)
 
 ---
 
-## Kurulum
+## Installation
 
 ```bash
 pip install pandas rich pyarrow
@@ -33,30 +33,30 @@ pip install pandas rich pyarrow
 
 ---
 
-## Kullanım
+## Usage
 
-1. Projeyi klonla veya indir:
+1. Clone or download the project:
     ```bash
     git clone https://github.com/hakankygsz/wordfinder.git
     cd wordfinder3000
     ```
 
-2. `dataset.parquet` dosyanı proje klasörüne koy.
+2. Place your `dataset.parquet` file inside the project folder.
 
-3. Uygulamayı çalıştır:
+3. Run the application:
     ```bash
     python word_search.py
     ```
 
-4. Terminale kelimeni yaz, anlamlarını anında gör!
+4. Type your word in the terminal and instantly see the meanings!
 
-5. Çıkmak için `q`, `exit`, `quit` yazabilir veya `Ctrl+C` yapabilirsin.
+5. To exit, type `q`, `exit`, `quit` or press `Ctrl+C`.
 
 ---
 
-## Dataset Oluşturma (Opsiyonel)
+## Dataset Creation (Optional)
 
-Eğer hazır datasetin yoksa, şu ufak scripti kullanarak oluşturabilirsin:
+If you don't have a ready dataset, you can create one using this small script:
 
 ```python
 import pandas as pd
@@ -72,16 +72,16 @@ df.to_parquet('dataset.parquet')
 
 ---
 
-## İletişim
+## Contact
 
-Her türlü soru, öneri ve katkı için [hakankaygusuzdev@gmail.com](mailto:hakankaygusuzdev@gmail.com) adresinden bana ulaşabilirsin.
+For any questions, suggestions, or contributions, reach me at [hakankaygusuzdev@gmail.com](mailto:hakankaygusuzdev@gmail.com).
 
 ---
 
-## Lisans
+## License
 
 MIT License © 2025 Hakan
 
 ---
 
-🚀 **wordfinder** ile kelime dünyasında kaybolma, keşfet!
+🚀 Don't get lost in the word world, explore it with **wordfinder**!
